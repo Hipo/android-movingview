@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MovingView">
+        <attr name="speed" format="integer"></attr>
+        <attr name="src" format="reference"></attr>
+        <attr name="direction">
+            <enum name="x_Axis" value="0" />
+            <enum name="y_Axis" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
