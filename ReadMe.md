@@ -6,10 +6,11 @@ MovingView is an android library which provides  endless scrolling effect for gi
 
 #Usage
 You can simply add this view into your layout file set parameters
+
   - speed
   - src
   - direction
-```sh
+```
 <com.hipo.movingview.MovingView
        android:layout_width="match_parent"
        android:layout_height="match_parent"
@@ -19,7 +20,7 @@ You can simply add this view into your layout file set parameters
 ```
 
 You can also pass these variables into constructor.
-```sh
+```
         new MovingView(this,4,drawable);
 ```
 
@@ -32,8 +33,9 @@ You can also pass these variables into constructor.
         ./gradlew uploadArchives
 ```
 from Android Studio's terminal
+
  - Add this dependency into your project
-   ```sh
+   ```
         compile 'com.hipo.movingview:library:+'
 ```
 
