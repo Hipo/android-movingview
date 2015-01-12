@@ -10,17 +10,12 @@ You can simply add this view into your layout file set parameters
   - speed
   - src
   - direction
-```
+``` xml
 <com.hipo.movingview.MovingView
-
        android:layout_width="match_parent"
-
        android:layout_height="match_parent"
-
        app:speed="4"
-
        app:src="@drawable/ic_launcher"
-       
        app:direction="y_Axis"/>
 ```
 
